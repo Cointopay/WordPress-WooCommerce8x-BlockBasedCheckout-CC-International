@@ -34,7 +34,7 @@ const Label = ( props ) => {
  * LS payment method config object.
  */
 const cointopay_cc_ctp = {
-	name: "cointopay-cc",
+	name: "cointopay_cc",
 	label: <Label />,
 	content: <Content />,
 	edit: <Content />,

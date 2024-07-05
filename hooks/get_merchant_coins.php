@@ -11,9 +11,9 @@ function cointopay_cc_getCTPCCMerchantCoins()
 		foreach ($arr as $key => $value) {
 			$ctpbank = new WC_CointopayCC_Gateway;
 			$ctpbselect = ($key == $ctpbank->alt_coin_id) ? 'selected="selected"' : '';
-			$option .= '<option value="' . intval($key) . '" ' . $ctpbselect . '>' . sanitize_text_field($value) . '</option>';
+			$option .= '<option value="' . intval($key) . '" ' . $ctpbselect . '>' . esc_html($value) . '</option>';
 		}
-		echo $option;
+		echo esc_html($option);
 		exit();
 	}
 }

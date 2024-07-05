@@ -6,11 +6,11 @@ class WC_Cointopay_CC_Block_support extends AbstractPaymentMethodType
 
     private $gateway;
 
-    protected $name = 'cointopay-cc';
+    protected $name = 'cointopay_cc';
 
     public function initialize()
     {
-        $this->settings = get_option( 'woocommerce_cointopay-cc_settings', [] );
+        $this->settings = get_option( 'woocommerce_cointopay_cc_settings', [] );
         $this->gateway  = new WC_CointopayCC_Gateway();
     }
 

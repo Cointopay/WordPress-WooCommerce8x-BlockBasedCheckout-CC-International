@@ -4,7 +4,7 @@
  * Description: Extends WooCommerce with card payments gateway.
  * Version: 1.3.1
  * Author: Cointopay
- * Text Domain: cointopay-cc
+ * Text Domain: wc-cointopay-cc-only
  * @package  WooCommerce
  * @author   Cointopay <info@cointopay.com>
  * @link     cointopay.com

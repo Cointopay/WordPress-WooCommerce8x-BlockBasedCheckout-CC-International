@@ -15,7 +15,7 @@ Please follow the Wordpress WooCommerce Cointopay CC Plugin install instructions
 
 # Configuration Instructions
 
-    1. Install zip file using WordPress built-in Add New Plugin installer (https://github.com/Cointopay/Wordpress-WooCommerce-CC-International/archive/refs/heads/master.zip)
+    1. Install zip file using WordPress built-in Add New Plugin installer (https://github.com/Cointopay/WordPress-WooCommerce8x-BlockBasedCheckout-CC-International/archive/refs/heads/main.zip)
     2. Go to your WooCommerce Settings, and click the Payments tab, find Cointopay CC Only.
     3. In settings "MerchantID" <- set your Cointopay ID.
     4. In settings "Security Code" <- set your Cointopay Security code (no API key required)
@@ -23,7 +23,7 @@ Please follow the Wordpress WooCommerce Cointopay CC Plugin install instructions
     6. Save changes.
 
 Tested on:
-- WordPress 3.8.1 --> 6.3.1
+- WordPress 3.8.1 --> 6.5.5
 - WooCommerce 2.1.9 --> 8.1.1
 
 ### Notes:

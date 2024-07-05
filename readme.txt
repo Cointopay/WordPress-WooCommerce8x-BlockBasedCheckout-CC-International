@@ -1,7 +1,7 @@
 === Cointopay.com CC Only ===
 Contributors: Cointopay, therightsw, goshila
 Requires at least: 3.8.1
-Tested up to: 6.3.1
+Tested up to: 6.5.5
 Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,7 +18,7 @@ Card payment plugin for Wordpress WooCommerce, you can receive card payments int
 3. Install JSON Encode on your server
 
 == Installation ==
-1. Install zip file using WordPress built-in Add New Plugin installer (https://github.com/Cointopay/Wordpress-WooCommerce-CC-International/archive/refs/heads/master.zip)
+1. Install zip file using WordPress built-in Add New Plugin installer (https://github.com/Cointopay/WordPress-WooCommerce8x-BlockBasedCheckout-CC-International/archive/refs/heads/main.zip)
 2. Go to your WooCommerce Settings, and click the Checkout tab, find Cointopay CC Only.
 3. In settings "MerchantID" <- set your Cointopay ID.
 4. In settings "SecurityCode" <- set your Cointopay Security code (no API key required)
@@ -26,7 +26,7 @@ Card payment plugin for Wordpress WooCommerce, you can receive card payments int
 6. Save changes
 
 *Tested on:*
-WordPress 3.8.1 --> 6.3.1
+WordPress 3.8.1 --> 6.5.5
 WooCommerce 2.1.9 --> 8.1.1
 
 *Notes:*

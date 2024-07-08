@@ -13,7 +13,7 @@ function cointopay_cc_getCTPCCMerchantCoins()
 			$ctpbselect = ($key == $ctpbank->alt_coin_id) ? 'selected="selected"' : '';
 			$option .= '<option value="' . intval($key) . '" ' . $ctpbselect . '>' . esc_html($value) . '</option>';
 		}
-		echo esc_html($option);
+		echo wp_kses($option);
 		exit();
 	}
 }
@@ -37,6 +37,6 @@ function cointopay_cc_getCTPCCCoins($merchantId)
 			}
 		}
 
-		return $new_php_arr;
+		return wp_kses($new_php_arr);
 	}
 }

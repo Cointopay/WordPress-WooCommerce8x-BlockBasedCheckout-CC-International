@@ -198,7 +198,7 @@ class WC_CointopayCC_Gateway extends WC_Payment_Gateway {
 				if ($matches[0] != '') {
 					return array(
 					'result'   => 'success',
-					'redirect' => esc_url($matches[0]),
+					'redirect' => esc_url_raw($matches[0]),
 				);
 				} else {
 					wc_add_notice('Payment link is empty', 'error');
